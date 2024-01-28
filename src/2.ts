@@ -22,9 +22,6 @@ class Employee {
     private department: string,
     protected salary: number
   ) {
-    this.name = name;
-    this.department = department;
-    this.salary = salary;
   }
 
   getEmployeeDetails() {
